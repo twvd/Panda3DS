@@ -30,7 +30,7 @@
 	url = https://github.com/Panda3DS-emu/discord-rpc
 [submodule "third_party/LuaJIT"]
 	path = third_party/LuaJIT
-	url = https://github.com/Panda3DS-emu/LuaJIT
+	url = https://github.com/twvd/LuaJIT
 [submodule "third_party/mio"]
 	path = third_party/mio
 	url = https://github.com/vimpunk/mio
