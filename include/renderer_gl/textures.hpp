@@ -35,8 +35,9 @@ struct Texture {
     // For 2 textures to "match" we only care about their locations, formats, and dimensions to match
     // For other things, such as filtering mode, etc, we can just switch the attributes of the cached texture
     bool matches(Texture& other) {
-        return location == other.location && format == other.format &&
-            size.x() == other.size.x() && size.y() == other.size.y();
+        return false;
+        //return location == other.location && format == other.format &&
+        //    size.x() == other.size.x() && size.y() == other.size.y();
     }
 
     void allocate();
